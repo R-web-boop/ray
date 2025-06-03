@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>屏東中央商圈的變遷</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>屏東中央商圈的繁榮與衰敗</h1>
+
+    <!-- 時間軸 -->
+    <div class="timeline-container">
+      <label for="timeline">選擇時間點：</label>
+      <input type="range" id="timeline" min="1" max="2" step="1" value="1" />
+      <div class="time-labels">
+        <span>繁榮時期</span>
+        <span>現在</span>
+      </div>
+    </div>
+
+    <!-- 市場資訊 -->
+    <section id="market-info">
+
+      <!-- 第一市場 -->
+      <div class="market" id="market1">
+        <h2>第一市場 - 布料服飾</h2>
+        <p class="description"
+           data-past="第一市場當時人潮擁擠，許多人前來購買布料製作衣服"
+           data-present="第一市場如今已無人潮，待在那邊的布料商人已無當年風采，但仍駐守在此地等待新的人到訪">
+        </p>
+        <img src="market1-past.jpg" alt="第一市場繁榮時期" class="market-img">
+        <img src="market1-present.jpg" alt="第一市場現在" class="market-img hidden">
+      </div>
+
+      <!-- 第二市場 -->
+      <div class="market" id="market2">
+        <h2>第二市場 - 生鮮蔬果</h2>
+        <p class="description"
+           data-past="第二市場當時充斥著諸多人，前來購買食物，來的人地會被食物吸引，攤販會開店直到晚上能樂此不疲"
+           data-present="第二市場如今能有固定的早上人潮，只是來往的人相較於以往較少，攤販開的時間也變成早上時段而已">
+        </p>
+        <img src="market2-past.jpg" alt="第二市場繁榮時期" class="market-img">
+        <img src="market2-present.jpg" alt="第二市場現在" class="market-img hidden">
+      </div>
+
+      <!-- 第三市場 -->
+      <div class="market" id="market3">
+        <h2>第三市場 - 文創市集</h2>
+        <p class="description"
+           data-past="第三市場只知道當時賣的也是更生活相關產品，但具體為何尚未肯定"
+           data-present="第三市場如今轉型成功，變為小品市集，人潮雖不如以往，但跟以往比景氣卻不差多少">
+        </p>
+        <img src="market3-past.jpg" alt="第三市場繁榮時期" class="market-img">
+        <img src="market3-present.jpg" alt="第三市場現在" class="market-img hidden">
+      </div>
+
+      <!-- 第四市場 -->
+      <div class="market" id="market4">
+        <h2>第四市場 - 中央交通樞紐</h2>
+        <p class="description"
+           data-past="第四市場，當時其設立為中心是防止小孩走丟，加上其連接其他市場，自然是最多人來往的地方"
+           data-present="第四市場，因為人潮的大量消退，變為一個交通地點，但至少其通往旁邊的百貨。">
+        </p>
+        <img src="market4-past.jpg" alt="第四市場繁榮時期" class="market-img">
+        <img src="market4-present.jpg" alt="第四市場現在" class="market-img hidden">
+      </div>
+
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
